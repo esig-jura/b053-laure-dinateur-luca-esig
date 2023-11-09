@@ -33,8 +33,6 @@
     src: url('../fonts/changa-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -61,4 +59,10 @@ a {
 
 a:hover {
     color: darkmagenta;
+}
+
+h1,
+h2,
+h3{
+    font-family: "Changa One",sans-serif;
 }
