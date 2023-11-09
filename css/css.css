@@ -24,6 +24,15 @@
     font-weight: 700;
     src: url('../fonts/open-sans-v36-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* changa-one-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/changa-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 
 
 * {
@@ -31,7 +40,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans',Arial, sans-serif;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.4;
