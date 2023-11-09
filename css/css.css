@@ -53,12 +53,13 @@ img {
 }
 
 a {
-    color: deeppink;
+    color: #e71d36;
     text-decoration: none;
 }
 
 a:hover {
     color: darkmagenta;
+    text-decoration:underline;
 }
 
 h1,
