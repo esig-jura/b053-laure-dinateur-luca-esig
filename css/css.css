@@ -43,7 +43,8 @@ body {
     font-size: 1rem;
     line-height: 1.4;
     color: #011627;
-    background-color:#fdfffc
+    background-color:#fdfffc;
+    margin: 0;
 }
 
 img {
@@ -79,4 +80,22 @@ h2{
 }
 p{
     line-height: 1.5;
+}
+
+/*****************************
+       Entête de page
+ ******************************/
+
+header{
+    background-color: #011627;
+    padding: 5px;
+    margin-bottom: 30px;
+
+}
+
+header .nom{
+    color: #2ec4b6;
+    font-family: "Changa One", cursive  ;
+    font-weight: 400;
+    font-size: 1.75em;
 }
