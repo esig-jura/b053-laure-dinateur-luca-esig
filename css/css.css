@@ -58,11 +58,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: darkmagenta;
-    text-decoration:underline;
-}
-
 h1,
 h2,
 h3{
@@ -90,12 +85,39 @@ header{
     background-color: #011627;
     padding: 5px;
     margin-bottom: 30px;
+    text-align: center;
 
 }
 
-header .nom{
+header .nom,
+header .metier {
     color: #2ec4b6;
     font-family: "Changa One", cursive  ;
     font-weight: 400;
     font-size: 1.75em;
+}
+
+header.métier{
+    font-size: 1em;
+    color: #e71d36;
+}
+
+ header nav ul{
+    padding: 0;
+    display:flex;
+    gap: 1.5em;
+    justify-content: center;
+}
+
+ header nav a{
+     font-weight: bold;
+     color: #fdfffc;
+ }
+
+header nav a:hover{
+
+    color: #2ec4b6;
+}
+header nav li:first-of-type{
+    display: none  ;
 }
