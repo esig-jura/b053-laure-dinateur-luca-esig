@@ -190,3 +190,8 @@ footer ul li img:hover {
 
     padding: 0 0 0 30px;
 }
+img {
+    max-width: 100%; /* Empêche le débordement des images */
+    height: auto; /* Règle problème des tailles saisies en HTML */
+    width: auto;
+}
