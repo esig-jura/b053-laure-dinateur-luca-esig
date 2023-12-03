@@ -172,3 +172,21 @@ footer ul li img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
+
+.page-contact .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+
+.page-contact .contact-info li {
+    margin-bottom: .5em;
+}
+
+.page-contact .contact-info li a {
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 2px;
+
+    padding: 0 0 0 30px;
+}
